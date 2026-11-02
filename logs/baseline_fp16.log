@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<02:04,  5.83it/s]Loading weights:   9%|▉         | 64/729 [00:00<00:02, 272.85it/s]Loading weights:  14%|█▎        | 99/729 [00:00<00:02, 285.71it/s]Loading weights:  18%|█▊        | 131/729 [00:00<00:02, 295.13it/s]Loading weights:  22%|██▏       | 163/729 [00:00<00:02, 277.68it/s]Loading weights:  27%|██▋       | 195/729 [00:00<00:01, 268.34it/s]Loading weights:  31%|███       | 223/729 [00:00<00:01, 264.28it/s]Loading weights:  35%|███▍      | 255/729 [00:00<00:01, 270.80it/s]Loading weights:  39%|███▉      | 283/729 [00:01<00:01, 264.52it/s]Loading weights:  43%|████▎     | 315/729 [00:01<00:01, 260.10it/s]Loading weights:  50%|█████     | 368/729 [00:01<00:01, 327.52it/s]Loading weights:  59%|█████▊    | 428/729 [00:01<00:00, 395.90it/s]Loading weights:  67%|██████▋   | 488/729 [00:01<00:00, 452.61it/s]Loading weights:  75%|███████▌  | 548/729 [00:01<00:00, 489.36it/s]Loading weights:  83%|████████▎ | 608/729 [00:01<00:00, 519.81it/s]Loading weights:  92%|█████████▏| 668/729 [00:01<00:00, 536.06it/s]Loading weights: 100%|█████████▉| 726/729 [00:01<00:00, 536.99it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 374.02it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/usr/local/lib/python3.13/dist-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+{
+  "name": "baseline_fp16",
+  "seed": 40,
+  "model_size_gb": 4.417971872,
+  "acc": 80.4,
+  "n": 500,
+  "prefill_sec_per_sample": 0.15217690134048462,
+  "peak_mem_gb": 4.6825856,
+  "nan_count": 0
+}

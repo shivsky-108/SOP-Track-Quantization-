@@ -1,0 +1,1 @@
+{"name": "baseline_fp16", "seed": 40, "model_size_gb": 4.417971872, "acc": 80.4, "n": 500, "prefill_sec_per_sample": 0.15217690134048462, "peak_mem_gb": 4.6825856, "nan_count": 0}
