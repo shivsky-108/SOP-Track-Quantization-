@@ -1,4 +1,51 @@
-Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<05:37,  2.16it/s]Loading weights:  17%|█▋        | 124/729 [00:00<00:02, 286.93it/s]Loading weights:  26%|██▋       | 193/729 [00:00<00:01, 285.81it/s]Loading weights:  33%|███▎      | 244/729 [00:01<00:01, 269.80it/s]Loading weights:  39%|███▉      | 284/729 [00:01<00:01, 272.63it/s]Loading weights:  44%|████▍     | 320/729 [00:01<00:01, 274.42it/s]Loading weights:  50%|█████     | 368/729 [00:01<00:01, 313.54it/s]Loading weights:  59%|█████▊    | 428/729 [00:01<00:00, 379.06it/s]Loading weights:  67%|██████▋   | 490/729 [00:01<00:00, 438.69it/s]Loading weights:  76%|███████▋  | 556/729 [00:01<00:00, 496.66it/s]Loading weights:  85%|████████▌ | 620/729 [00:01<00:00, 522.28it/s]Loading weights:  94%|█████████▎| 682/729 [00:01<00:00, 536.41it/s]Loading weights: 100%|██████████| 729/729 [00:02<00:00, 362.13it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<03:35,  3.37it/s]Loading weights:  14%|█▍        | 101/729 [00:00<00:02, 310.00it/s]Loading weights:  21%|██        | 152/729 [00:00<00:01, 300.96it/s]Loading weights:  26%|██▋       | 193/729 [00:00<00:01, 305.30it/s]Loading weights:  32%|███▏      | 230/729 [00:00<00:01, 295.26it/s]Loading weights:  36%|███▌      | 264/729 [00:00<00:01, 281.44it/s]Loading weights:  40%|████      | 295/729 [00:01<00:01, 264.32it/s]Loading weights:  45%|████▍     | 327/729 [00:01<00:01, 265.64it/s]Loading weights:  54%|█████▍    | 392/729 [00:01<00:00, 357.82it/s]Loading weights:  62%|██████▏   | 454/729 [00:01<00:00, 423.08it/s]Loading weights:  72%|███████▏  | 524/729 [00:01<00:00, 482.30it/s]Loading weights:  80%|████████  | 586/729 [00:01<00:00, 518.39it/s]Loading weights:  90%|████████▉ | 656/729 [00:01<00:00, 553.63it/s]Loading weights:  98%|█████████▊| 716/729 [00:01<00:00, 563.17it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 382.24it/s]
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /usr/local/lib/python3.13/dist-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
   warnings.warn(
+Replaced 196 linear layers
+visual tokens in 1st sample: 234 of 344
+visual/text abs-max ratio: mean=0.88 max=1.66  layers with ratio>1: 77/196
+{
+  "name": "sim_W8A8_fp",
+  "seed": 40,
+  "ratio_mean": 0.8759509662774448,
+  "ratio_max": 1.6637167930603027,
+  "acc": 80.4,
+  "n": 500,
+  "prefill_sec_per_sample": 0.15800279188156127,
+  "peak_mem_gb": 7.32110592,
+  "nan_count": 0
+}
+{
+  "name": "sim_W8A8_dyn_token",
+  "seed": 40,
+  "ratio_mean": 0.8759509662774448,
+  "ratio_max": 1.6637167930603027,
+  "acc": 81.0,
+  "n": 500,
+  "prefill_sec_per_sample": 0.18607265853881835,
+  "peak_mem_gb": 7.32110592,
+  "nan_count": 0
+}
+{
+  "name": "sim_W8A8_static_shared",
+  "seed": 40,
+  "ratio_mean": 0.8759509662774448,
+  "ratio_max": 1.6637167930603027,
+  "acc": 64.6,
+  "n": 500,
+  "prefill_sec_per_sample": 0.17887446451187133,
+  "peak_mem_gb": 7.32110592,
+  "nan_count": 0
+}
+{
+  "name": "sim_W8A8_static_msq",
+  "seed": 40,
+  "ratio_mean": 0.8759509662774448,
+  "ratio_max": 1.6637167930603027,
+  "acc": 64.4,
+  "n": 500,
+  "prefill_sec_per_sample": 0.18056774091720582,
+  "peak_mem_gb": 7.32110592,
+  "nan_count": 0
+}

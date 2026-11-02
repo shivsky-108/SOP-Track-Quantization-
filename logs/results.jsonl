@@ -1,3 +1,7 @@
 {"name": "baseline_fp16", "seed": 40, "model_size_gb": 4.417971872, "acc": 80.4, "n": 500, "prefill_sec_per_sample": 0.15217690134048462, "peak_mem_gb": 4.6825856, "nan_count": 0}
 {"name": "bnb_8bit", "seed": 40, "model_size_gb": 2.44455184, "acc": 81.0, "n": 500, "prefill_sec_per_sample": 0.3721170792579651, "peak_mem_gb": 2.717242368, "nan_count": 0}
 {"name": "bnb_4bit", "seed": 40, "model_size_gb": 1.457841824, "acc": 78.2, "n": 500, "prefill_sec_per_sample": 0.1895974884033203, "peak_mem_gb": 1.87951872, "nan_count": 0}
+{"name": "sim_W8A8_fp", "seed": 40, "ratio_mean": 0.8759509662774448, "ratio_max": 1.6637167930603027, "acc": 80.4, "n": 500, "prefill_sec_per_sample": 0.15800279188156127, "peak_mem_gb": 7.32110592, "nan_count": 0}
+{"name": "sim_W8A8_dyn_token", "seed": 40, "ratio_mean": 0.8759509662774448, "ratio_max": 1.6637167930603027, "acc": 81.0, "n": 500, "prefill_sec_per_sample": 0.18607265853881835, "peak_mem_gb": 7.32110592, "nan_count": 0}
+{"name": "sim_W8A8_static_shared", "seed": 40, "ratio_mean": 0.8759509662774448, "ratio_max": 1.6637167930603027, "acc": 64.6, "n": 500, "prefill_sec_per_sample": 0.17887446451187133, "peak_mem_gb": 7.32110592, "nan_count": 0}
+{"name": "sim_W8A8_static_msq", "seed": 40, "ratio_mean": 0.8759509662774448, "ratio_max": 1.6637167930603027, "acc": 64.4, "n": 500, "prefill_sec_per_sample": 0.18056774091720582, "peak_mem_gb": 7.32110592, "nan_count": 0}
