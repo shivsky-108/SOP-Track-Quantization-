@@ -1,1 +1,3 @@
 {"name": "baseline_fp16", "seed": 40, "model_size_gb": 4.417971872, "acc": 80.4, "n": 500, "prefill_sec_per_sample": 0.15217690134048462, "peak_mem_gb": 4.6825856, "nan_count": 0}
+{"name": "bnb_8bit", "seed": 40, "model_size_gb": 2.44455184, "acc": 81.0, "n": 500, "prefill_sec_per_sample": 0.3721170792579651, "peak_mem_gb": 2.717242368, "nan_count": 0}
+{"name": "bnb_4bit", "seed": 40, "model_size_gb": 1.457841824, "acc": 78.2, "n": 500, "prefill_sec_per_sample": 0.1895974884033203, "peak_mem_gb": 1.87951872, "nan_count": 0}
